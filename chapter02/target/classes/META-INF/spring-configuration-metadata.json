@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.dqk.dao.Person",
+      "sourceType": "com.dqk.dao.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.family",
+      "type": "java.lang.String[]",
+      "sourceType": "com.dqk.dao.Person"
+    },
+    {
+      "name": "person.hobby",
+      "type": "java.util.List",
+      "sourceType": "com.dqk.dao.Person"
+    },
+    {
+      "name": "person.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.dqk.dao.Person"
+    },
+    {
+      "name": "person.map",
+      "type": "java.util.Map",
+      "sourceType": "com.dqk.dao.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.dqk.dao.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.dqk.dao.Pet",
+      "sourceType": "com.dqk.dao.Person"
+    }
+  ],
+  "hints": []
+}
